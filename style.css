@@ -3105,7 +3105,7 @@ header .nav-bar {
 /* Mobile: 1 column */
 @media screen and (max-width: 768px) {
   .projects-page {
-    padding-top: 32%;
+    padding-top: 35%;
   }
   .works-gallery {
     grid-template-columns: 1fr;
