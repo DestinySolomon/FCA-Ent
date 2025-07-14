@@ -331,6 +331,8 @@ header .nav-bar {
   color: white;
   padding-bottom: 10%;
   background-image: url(images/interiors/interior.jpg);
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.547);
   background-position: center;
   text-align: center;
   animation-name: interior-serv;
@@ -393,6 +395,8 @@ header .nav-bar {
   background-image: url(images/exteriors/111.jpg);
   background-position: center;
   text-align: center;
+   background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.547);
   animation-name: exterior-serv;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -452,6 +456,8 @@ header .nav-bar {
   background-image: url(images/industry/2222222222.jpg);
   background-position: center;
   text-align: center;
+   background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.547);
   animation-name: industry-serv;
   animation-duration: 15s;
   animation-iteration-count: infinite;
