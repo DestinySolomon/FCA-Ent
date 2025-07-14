@@ -51,6 +51,7 @@ header .nav-bar {
 
 /* _____Dropdown Styling__________ */
 
+
 .nav-bar .menu .dropdown {
   position: relative;
 }
@@ -68,6 +69,16 @@ header .nav-bar {
   padding: 10px;
   width: 9rem;
   color: #fff;
+}
+
+.nav-bar .menu .dropdown.active-dropdown .dropdown-content {
+  display: block;
+  width: 100%;
+  position: static;
+  height: auto;
+  background: #0a2239;
+  box-shadow: none;
+  border-radius: 0%;
 }
 
 .nav-bar .menu .dropdown:hover .dropdown-content {
