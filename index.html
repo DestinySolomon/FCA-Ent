@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="images/paints/production222.jpg" />
+
+    <link rel="preload" as="image" href="images/exteriors/333.jpg" />
+    <link rel="preload" as="image" href="images/exteriors/111.jpg" />
+    <link rel="preload" as="image" href="images/exteriors/222.jpg" />
+    <link rel="preload" as="image" href="images/exteriors/444.jpg" />
+    <link rel="preload" as="image" href="images/hero/skyline.jpg" />
+    <link
+      rel="preload"
+      as="image"
+      href="images/exteriors/exterior painting11.jpg"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nova+Square&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="c:\Users\USER\Desktop\font awesome\fontawesome-free-6.7.2-web\css\all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="c:\Users\USER\Desktop\font awesome\fontawesome-free-6.7.2-web\css\fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="images/logo/logo.png"
+              alt="First Class Achievers Enterprise Logo"
+            />
+          </a>
+        </div>
+
+        <button
+          class="hamburger"
+          onclick="toggleMenu()"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a
+              href="#"
+              class="dropdown-toggle"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Services</a
+            >
+
+            <div class="dropdown-content">
+              <div><a href="production.html">Paint Production</a></div>
+              <a href="interiorpaint.html">Interior Painting</a>
+              <a href="exteriorpaint.html">Exterior Painting</a>
+              <a href="domesticpainting.html">Domestic Painting</a>
+              <a href="commercialpainting.html">Commercial Painting</a>
+              <a href="industrialpainting.html">Industrial Painting</a>
+            </div>
+          </li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="aboutUs.html">About</a></li>
+          <li><a href="estimate.html" class="free-esti">Free Estimate</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <p class="company-name">First Class Achievers Enterprise</p>
+      <h1>Trusted Painting Professionals in <br />Port Harcourt</h1>
+
+      <p>
+        With years of experience in the industry, we provide top-quality <br />
+        residential and commercial painting services. Our team of skilled <br />
+        painters is dedicated to delivering exceptional results, ensuring your
+        <br />
+        space looks its best.
+      </p>
+
+      <button class="free-esti-btn">
+        <a href="estimate.html">Free Estimate</a>
+      </button>
+    </section>
+
+    <section class="services-area">
+      <div class="service-portal">
+        <div class="interior-serv">
+          <h2>Interior Painting</h2>
+          <p>
+            Transform your home's interior with our expert painting <br />
+            services. We handle everything from color consultation <br />
+            to the final coat, ensuring a flawless finish that breathes <br />
+            a new life into your space.
+          </p>
+
+          <div>
+            <a href="interiorpaint.html"
+              >INTERIOR PAINTING <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="exterior-serv">
+          <h2>Exterior Painting</h2>
+
+          <p>
+            Refurbish your home's exterior with our professional <br />
+            painting services. From surface preparation to the final <br />
+            coat, we ensure a durable and beautiful finish that <br />
+            enhances your home's curb appeal.
+          </p>
+
+          <div>
+            <a href="exteriorpaint.html">
+              EXTERIOR PAINTING<i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="industrial-serv">
+          <h2>Industrial Painting</h2>
+          <p>
+            We specialize in high-performance industrial painting <br />
+            solutions designed to protect and enhance machinery, <br />
+            structures, and surfaces. Our coatings are engineered for <br />
+            durability, weather resistance, and corrosion protection.
+          </p>
+          <div>
+            <a href="industrialpainting.html"
+              >INDUSTRIAL PAINTING <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!-- <button class="hero-btn"><a href="">View All Services</a></button> -->
+    </section>
+
+    <section class="about-sec">
+      <h2>About First Class Achievers Enterprise</h2>
+      <p>
+        At First Class Achievers Enterprise, we transform spaces with expert
+        painting that blends <br />
+        vibrant colors and flawless finishes. With years of trusted service, we
+        bring your vision to life, <br />
+        delivering stunning results that last. Discover the art of painting
+        today!
+      </p>
+      <div class="about-page">
+        <div class="about">
+          <i class="fa-solid fa-certificate"></i>
+          <h3>Professional Expertise</h3>
+          <p class="abt-par">
+            Our team of skilled painters applies advanced <br />
+            techniques and top-tier materials to ensure your <br />
+            space looks beautiful and endures over time.
+          </p>
+        </div>
+
+        <div class="about">
+          <i class="fa-solid fa-circle-check"></i>
+          <h3>Quality Materials</h3>
+          <p class="abt-par">
+            We manufacture high-quality, durable paints, providing <br />
+            a finish that lasts and offers <br />
+            excellent protection.
+          </p>
+        </div>
+
+        <div class="about">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <h3>Attention to Detail</h3>
+          <p class="abt-par">
+            Every project is handled with meticulous care, <br />ensuring
+            precision and perfection fromthe initial <br />
+            preparation to the final coat.
+          </p>
+        </div>
+
+        <div class="about">
+          <i class="fa-solid fa-paint-roller"></i>
+          <h3>Comprehensive Services</h3>
+          <p class="abt-par">
+            We offer a wide range of painting services, <br />
+            from minor touch-ups to complete transformations, all <br />
+            customized to meet your specific needs.
+          </p>
+        </div>
+
+        <div class="about">
+          <i class="fa-solid fa-thumbs-up"></i>
+          <h3>Customer Satisfaction</h3>
+          <p class="abt-par">
+            Your satisfaction is our top priority. We <br />Collaborate closely
+            with you to ensure the finished project <br />
+            exceeds your expectations.
+          </p>
+        </div>
+
+        <div class="about">
+          <i class="fa-solid fa-earth-africa"></i>
+          <h3>Eco-Friendly Practices</h3>
+          <p class="abt-par">
+            Committed to sustainability, we use eco-friendly <br />
+            paints and practices that reduce environmental <br />
+            impact while maintaining exceptional quality.
+          </p>
+        </div>
+      </div>
+
+      <button class="contact-fca">
+        <a href="estimate.html"> Contact FCA Enterprise</a>
+      </button>
+    </section>
+
+    <section class="projects">
+      <h4>Recent Projects</h4>
+      <p>
+        Explore our gallery of completed painting projects to witness the <br />
+        transformations we bring to various spaces. Each project showcases our
+        <br />
+        commitment to quality, attention to detail, and exceptional <br />
+        craftsmanship. Get inspired for your own improvement projects!
+      </p>
+
+      <div class="projects-view">
+        <div class="pro-pics">
+          <img src="images/projects/azu project.jpg" alt="paint job1" />
+          <p>Finished job at Agip</p>
+        </div>
+
+        <div class="pro-pics">
+          <img src="images/projects/paint job 1.jpg" alt="paint job2" />
+          <p>Finished job at Rumukparala</p>
+        </div>
+
+        <div class="pro-pics">
+          <img src="images/projects/paint job 2.jpg" alt="paint job3" />
+          <p>Finished job at Oil Mill</p>
+        </div>
+
+        <div class="pro-pics">
+          <img src="images/projects/paint job3.jpg" alt="paint job4" />
+          <p>Finished job at Water Lines</p>
+        </div>
+
+        <div class="pro-pics">
+          <img src="images/projects/paint job4.jpg" alt="paint job5" />
+          <p>Finished job at Wimpey</p>
+        </div>
+
+        <div class="pro-pics">
+          <img src="images/projects/paint job5.jpg" alt=" paint job6" />
+          <p>Finished job at Iwofe</p>
+        </div>
+
+        <div class="pro-pics">
+          <img src="images/projects/paint job 6.jpg" alt="paint job7" />
+          <p>Finished Job at Ada-George</p>
+        </div>
+
+        <div class="pro-pics">
+          <img src="images/projects/paint job7.jpg" alt="paint job8" />
+          <p>Finished job at Diobu</p>
+        </div>
+
+        <div class="pro-pics">
+          <img src="images/projects/paint job8.jpg" alt="paint job9" />
+          <p>Completed job at Elimgbu</p>
+        </div>
+      </div>
+      <button class="view-all-btn"><a href="projects.html">View All</a></button>
+    </section>
+
+    <section class="team-members">
+      <h5>Meet The Guys behind our Exceptional Craftmanship</h5>
+
+      <div class="team-profile">
+        <div class="team-guy">
+          <img src="images/team/CEO Azu.jpg" alt="Azubuike" />
+          <h6>CEO and Founder <br />FCA Enterprise</h6>
+          <p>Stephen S.O</p>
+        </div>
+
+        <div class="team-guy">
+          <img src="images/team/John Wicks.jpg" alt="John Wicks" />
+          <h6>Manufacturing Manager</h6>
+          <p>John Wicks</p>
+        </div>
+
+        <div class="team-guy">
+          <img src="images/team/team member 1.jpg" alt="Ogu Kinsgley" />
+          <h6>Painter</h6>
+          <p>Ogu Kingsley</p>
+        </div>
+
+        <div class="team-guy">
+          <img src="images/team/team member2.jpg" alt="Cyril Johnson" />
+          <h6>Painter</h6>
+          <p>Cyril Johnson</p>
+        </div>
+
+        <div class="team-guy">
+          <img src="images/team/team member3.jpg" alt="Omah Christian" />
+          <h6>Painter</h6>
+          <p>Omah Christian</p>
+        </div>
+
+        <div class="team-guy">
+          <img src="images/team/team member4.jpg" alt="Philip Ogu" />
+          <h6>Painter</h6>
+          <p>Philip Ogu</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="foot-area">
+        <div class="foot-area-logo">
+          <img src="images/logo/logo.png" alt="FCA logo" />
+          <p>
+            First Class Achievers Enterprise is your number one go to <br />
+            if you want to change the way your space looks. With years of <br />
+            experience in the industry, we provide top-quality <br />
+            residential and commercial painting services.
+          </p>
+        </div>
+
+        <div class="foot-area-contact">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>
+            Army Range by NDDC Junction Off Eneka <br />
+            Road, Port Harcourt. <br />
+            <br />
+            +234 703 484 9695
+          </p>
+        </div>
+
+        <div class="foot-area-links">
+          <h6>Quick Links</h6>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Free Estimate</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="footer-last">
+        <div class="footer-rights">
+          <p>
+            &copy;2025 First Class Achievers Enterprise. All Rights Reserved
+          </p>
+        </div>
+
+        <div class="footer-socials">
+          <div class="footer-fb">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+
+          <div class="footer-x">
+            <a href="#"> <i class="fa-brands fa-square-x-twitter"></i></a>
+          </div>
+
+          <div class="footer-youtube">
+            <a href="#"> <i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <p class="site-p">Site by Smart Dev.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
